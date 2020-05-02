@@ -3,7 +3,6 @@
    número elevado ao segundo número. Não utilize a função de potência da linguagem.
 """
 print("Calculadora de Pontencia... ")
-
 c = 0
 p = 1
 num1 = int(input("Base: "))

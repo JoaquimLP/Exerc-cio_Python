@@ -8,9 +8,8 @@ while num1 > num2:
     num1 = int(input("digite um numero: "))
     num2 = int(input("digite outro numero: "))
 else:
-    for c in range(num1, num2 +1):
+    for c in range(num1, num2 + 1):
         n += c
         print(c, end=" + ")
         c += 1
-
 print(f"FIM total = {n}")

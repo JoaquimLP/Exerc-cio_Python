@@ -1,4 +1,5 @@
-nome_1 = input('digite o primeiro nome:');
-nome_2 = input('digite o sobrenome:');
+nome = input("Digite seu nome: ")
+sobrenome = input("Digite seu sobrenome: ")
 
-print('Olá ',   nome_1   + ' '   , nome_2     );
+print("Ola, ", nome.strip(), sobrenome.strip() )
+

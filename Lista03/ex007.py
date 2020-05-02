@@ -1,25 +1,13 @@
 """
-7. Faça um Programa que leia três números e mostre o maior e o menor deles.
+7. Faça um programa que receba dois números inteiros e gere
+    os números inteiros que estão no intervalo compreendido por eles.
 """
-from time import sleep
-num1 = int(input("Digite o primeiro numero: "))
-num2 = int(input("Digite o segundo numero: "))
-num3 = int(input("Digite o terceiro numero: "))
-print("--"*20)
-print("Carregando...")
-sleep(2)
-print("-----------Resultado-----------")
-#Maior
-if num2 < num1 > num3 :
-    print(f"O numero maior é {num1}")
-elif num1 < num2 > num3:
-    print(f"O numero maior é {num2}")
-else:
-    print(f"O numero maior é {num3}")
-#Menor
-if num2 > num1 < num3 :
-    print(f"O numero menor é {num1}")
-elif num1 > num2 < num3:
-    print(f"O numero menor é {num2}")
-else:
-    print(f"O numero menor é {num3}")
+num1=int(input("digite um numero: "))
+num2=int(input("digite outro numero: "))
+while num2<num1:
+    print("Erro... O primeiro número tem que menor do que segundo")
+    num1=int(input("digite um numero: "))
+    num2=int(input("digite outro numero: "))
+for i in range(num1 + 1,num2):
+    print(i)
+

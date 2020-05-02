@@ -24,19 +24,23 @@ if sal <= 280:
     aumento = (sal * 20)/100
     novo = sal+aumento
     print(f"Salario antigo: R${sal:.2f}"
-          f"\no percentual de aumento aplicado 20%\nValor do Aumento R${aumento}\no novo salário R${novo}")
+          f"\no percentual de aumento aplicado 20%\nValor do Aumento R${aumento}"
+          f"\no novo salário R${novo}")
 elif sal > 280 and sal <= 700:
     aumento = (sal * 15)/100
     novo = sal+aumento
     print(f"Salario antigo: R${sal:.2f}"
-          f"\no percentual de aumento aplicado 15%\nValor do Aumento R${aumento}\no novo salário R${novo}")
+          f"\no percentual de aumento aplicado 15%\nValor do Aumento R${aumento}"
+          f"\no novo salário R${novo}")
 elif sal > 700 and sal <= 1500:
     aumento = (sal * 10) / 100
     novo = sal + aumento
     print(f"Salario antigo: R${sal:.2f}"
-          f"\nO percentual de aumento aplicado 10%\nValor do Aumento R${aumento}\nO novo salário R${novo}")
+          f"\nO percentual de aumento aplicado 10%\nValor do Aumento R${aumento}"
+          f"\nO novo salário R${novo}")
 else:
     aumento = (sal * 5) / 100
     novo = sal + aumento
     print(f"Salario antigo: R${sal:.2f}"
-          f"\no percentual de aumento aplicado 5%\nValor do Aumento R${aumento}\no novo salário R${novo}")
+          f"\no percentual de aumento aplicado 5%\nValor do Aumento R${aumento}"
+          f"\no novo salário R${novo}")

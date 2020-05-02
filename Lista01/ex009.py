@@ -3,7 +3,5 @@
 seguida mostre o dobro desta área para o usuário.
 """
 lado = float(input("Digite um lado do quadrado: "))
-
 area = lado ** 2
-
 print("A area do quadrado é ", area)

@@ -3,12 +3,14 @@
     ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as
     informações.
 """
-nome = input("Informe o seu usuário: ")
-senha = input('Digite sua senha: ')
-senhaCadastrada = "csd123"
-c = 0
-while senha != senhaCadastrada:
-    print("Senha Invalida...")
-    senha = input('Digite sua senha: ')
-    c += 1
-print("Login efetuado com sucesso")
+print("faça já seu cadastro:")
+usuario=str(input("usuário: "))
+senha=str(input("senha: "))
+while usuario==senha:
+    print("ERRO: o usuário não pode ser igual a senha, tente novamente")
+    usuario=str(input("usuário --> "))
+    senha=str(input("senha -->"))
+print("cadastrado efetuado com sucesso")
+
+
+

@@ -6,6 +6,5 @@ valor = float(input("Quantos você ganhar por horas trabalhado? "))
 horas = float(input("Quantas horas trabalhou esse mes? "))
 
 sal = valor * horas
-
 print("Você trabralhou ", horas, "seu salario vair ficar, ", sal)
 

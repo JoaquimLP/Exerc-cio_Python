@@ -5,7 +5,7 @@ A saída deve ser conforme o exemplo abaixo:
 """
 n = 0
 while True:
-    n = int(input('Digite um numero para vermos a sua tabuada: ou informe {-1} para sair'))
+    n = int(input('Digite um numero para vermos a sua tabuada: ou informe {-1} para sair: '))
     if n < 0:
         break
     print('-'*30)

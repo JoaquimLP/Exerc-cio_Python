@@ -19,4 +19,4 @@ for j in range(len(alunos[0])):
     print(f"aluno {j+1}: idade {alunos[0][j]}, altura {alunos[1][j]}")
 print("<>"*12)
 print(f"A media de altura de todos os alunos é {media}")
-print(f'A quantidade de alunos acima de 13  possuem altura inferior à média {cont}')
+print(f'A quantidade de alunos acima de 13 anos possuem altura inferior à média {cont}')

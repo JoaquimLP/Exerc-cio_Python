@@ -13,8 +13,12 @@ peso = float(input("Informe peso do peixe: "))
 
 if 50 < peso :
     total = (peso - 50) * 4
-    print("O peso passou pelo do limite estabelecido pelo regulamento\nde pesca do estado do Paraná (50 quilos) deve pagar\numa multa de R$ 4,00 por quilo excedente.")
+    print("O peso passou pelo do limite estabelecido pelo regulamento"
+          "\nde pesca do estado do Paraná (50 quilos) deve pagar"
+          "\numa multa de R$ 4,00 por quilo excedente.")
     print("E o valor da multa vai ser. {:.2f}".format(total))
 else:
-    print("Peso esta no limite estabelecido pelo regulamento\nde pesca do estado do Paraná (50 quilos) deve pagar\numa multa de R$ 4,00 por quilo excedente.")
+    print("Peso esta no limite estabelecido pelo regulamento"
+          "\nde pesca do estado do Paraná (50 quilos) deve pagar"
+          "\numa multa de R$ 4,00 por quilo excedente.")
     print("Não precisa pagar a multa.")

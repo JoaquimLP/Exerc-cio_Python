@@ -1,1 +1,5 @@
-print('\"o mar salgado\n Quanto do teu sal\n São lagrimas de Portugal!?".');
+metro = float(input("Quantos metros deseja converte: "))
+cem = metro * 100
+print("<>"*30)
+print("Transformando, ", metro, "m em cemtimetro: ", cem, "cm" )
+
